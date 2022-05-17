@@ -1,0 +1,41 @@
+.contacts {
+    position: relative;
+    padding: 17px 0 14px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+
+    }
+    img {
+        padding-top: 3px;
+        height: 25px;
+        width: 28px;
+    }
+    &__text {
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+        font-weight: 300;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    &__tabs {
+        display: none;
+    }
+    &__content {
+        display: none;
+    }
+}
+
