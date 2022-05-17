@@ -13,6 +13,20 @@
             text-align: center;
         }
     }
+
+    .problems {
+        padding: 60px 0 60px 0;
+        &__items {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin-bottom: 30px;
+        }
+        &__arrows {
+            padding-top: 15px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -27,6 +41,9 @@
                 width: 500px;
                 padding-left: 0;
             }
+        }
+        h1 {
+            max-width: 500px;
         }
     }
 
@@ -135,6 +152,24 @@
                 }
             }
         }
+        h1 {
+            font-size: 28px;
+            max-width: 400px;
+            line-height: 39px;
+        }
+        &__descr {
+            max-width: 400px;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+
+    .problems {
+        padding: 60px 0 20px 0;
+        h2 {
+            font-size: 30px;
+            font-weight: 700;
+        }
     }
 }
 
@@ -145,5 +180,40 @@
                 width: 75%;
             }
         }
+        h1 {
+            max-width: 320px;
+        }
+        &__descr {
+            max-width: 320px;
+        }
     }
+
+    .problems {
+        &__item {
+            height: 215px;
+            width: 300px;
+            background-size: 300px 215px;
+        }
+        &__img {
+            padding-top: 1px;
+        }
+        &__descr {
+            padding-top: 0;
+            font-size: 16px;
+        }
+
+        .solutions {
+            &__item {
+                height: 215px;
+                width: 300px;
+                background-size: 300px 215px;
+            }
+            &__descr {
+                padding-top: 0;
+                font-size: 16px;
+            }
+        }
+
+    }
+    
 }
