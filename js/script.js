@@ -20,7 +20,7 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    // dots: true,
+                    dots: true,
                     arrows: false
                 }
             },
