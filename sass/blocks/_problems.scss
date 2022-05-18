@@ -8,7 +8,7 @@
     &__item {
         width: 360px;
         height: 255px;
-        background: url('../../img/problem.jpg') center center/cover no-repeat;
+        background: url('../img/problem.jpg') center center/cover no-repeat;
     }
     &__img {
         display: block;
@@ -35,7 +35,7 @@
     }
     .solutions {
         &__item {
-            background: url('../../img/solution.jpg') center center/cover no-repeat;
+            background: url('../img/solution.jpg') center center/cover no-repeat;
             img {
                 display: block;
                 margin: 1px auto;
