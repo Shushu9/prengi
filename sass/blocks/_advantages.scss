@@ -1,0 +1,55 @@
+.advantages {
+    padding: 74px 0 80px 0;
+    position: relative;
+    h3 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__items {
+        padding-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item {
+        position: relative;
+        width: 570px;
+        height: 355px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_1 {
+            background: url('../img/advantages/time.jpg') center (center / cover) no-repeat;
+        }
+
+        &_2 {
+            background: url('../img/advantages/hand.jpg') center (center / cover) no-repeat;
+        }
+
+        &_3 {
+            background: url('../img/advantages/globe.jpg') center (center / cover) no-repeat;
+        }
+            
+        &_4 {
+            background: url('../img/advantages/phone.jpg') center (center / cover) no-repeat;
+        }
+            
+        &_5 {
+            background: url('../img/advantages/suit.jpg') center (center / cover) no-repeat;
+        }
+            
+        &_6 {
+            background: url('../img/advantages/payment.jpg') center (center / cover) no-repeat;
+        }  
+    }
+
+    &__descr {
+        font-size: 23px;
+        line-height: 26px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+}

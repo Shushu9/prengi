@@ -200,6 +200,15 @@
             padding-right: 8px;
         }
     }
+    .advantages {
+        padding: 45px 0 40px 0;
+        h3 {
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -272,5 +281,17 @@
                 padding-bottom: 0;
             }
         }
+    }
+    .advantages {
+        h3 {
+            font-size: 22px;
         }
+        &__item {
+            // width: aut;
+            height: 300px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
 }
