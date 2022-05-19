@@ -1,0 +1,71 @@
+.footer {
+    position: relative;
+    padding: 45px 0 40px 0;
+    background: url('../img/footerbg.jpg') center center/cover no-repeat;
+    // background-color: #49819e;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__company {
+        max-width: 453px;
+    }
+    &__logo {
+        padding-top: 15px;
+        padding-bottom: 19px;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 2px;
+    }
+    p {
+        margin-bottom: 3px;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #FFFFFF;
+        padding-right: 70px;
+    }
+    .menu {
+        padding: 0;
+        &__item {
+            list-style-type: none;
+            line-height: 23px;
+        }
+        &__link {
+            font-size: 14px;
+            line-height: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__modules {
+        margin-right: 30px;
+    }
+
+    &__industries {
+        margin-right: 40px;
+    }
+
+    &__divider {
+        padding-top: 25px;
+        margin: 0 9% ;
+        border-bottom: 1px solid #80a7bc;
+    }
+
+    &__reserved {
+        padding-top: 35px;
+        font-size: 13px;
+        line-height: 14px;
+        color: #ffffff;
+        text-align: center;
+    }
+}
