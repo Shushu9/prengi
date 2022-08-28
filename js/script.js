@@ -26,12 +26,37 @@ $(document).ready(function () {
             },
         ]
     });
+
+
+    // Smooth scroll and pageup
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 800) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
 });
+
+// Hamburger
 
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu'),
-    menuItem = document.querySelectorAll('.menu__item'),
-    hamburger = document.querySelector('.hamburger');
+        menuItem = document.querySelectorAll('.menu__item'),
+        hamburger = document.querySelector('.hamburger');
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
